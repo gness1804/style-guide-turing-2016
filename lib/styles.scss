@@ -27,3 +27,7 @@ nav li {
 .nav-bar-list li {
   display: inline-block;
 }
+
+#login-button {
+  @include login-button;
+}
