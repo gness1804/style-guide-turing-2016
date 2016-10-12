@@ -26,6 +26,13 @@ header {
 
   .nav-bar-list li {
     @include nav-bar-li;
+
+    &:hover {
+      background-color: $standard-button-background-color;
+      color: white;
+      cursor: pointer;
+    }
+
   }
 
   #login-button {
@@ -33,3 +40,37 @@ header {
   }
 
 } //end of header
+
+@media screen and (max-width: 920px) { /* for smartphones and tablets */
+  header  {
+    text-align: center;
+
+    .nav-bar-list {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .nav-bar-list li {
+        display: block;
+        max-width: 400px;
+        margin: 15px auto;
+    }
+
+    #index-logo {
+      display: none;
+    }
+
+    #index-headline {
+      float: none;
+      margin-right: 0px;
+    }
+
+    nav {
+      float: none;
+      position: static;
+      text-align: center;
+    }
+
+  } //end of header
+
+} //end of media query
