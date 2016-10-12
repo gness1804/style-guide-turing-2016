@@ -9,25 +9,25 @@ html {
 header {
   @include header;
 
-}
+  #index-logo {
+    height: $index-logo-height;
+    width: $index-logo-width;
+  }
 
-#index-headline {
-  @include headline;
-}
+  #index-headline {
+    @include headline;
+  }
 
-#index-logo {
-  height: $index-logo-height;
-  width: $index-logo-width;
-}
+  nav li {
+    @include nav-bar-li;
+  }
 
-nav li {
-  @include nav-bar-li;
-}
+  .nav-bar-list li {
+    display: inline-block;
+  }
 
-.nav-bar-list li {
-  display: inline-block;
-}
+  #login-button {
+    @include login-button;
+  }
 
-#login-button {
-  @include login-button;
-}
+} //end of header

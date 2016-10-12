@@ -18,5 +18,6 @@
 }
 
 @mixin login-button {
-  background-color: $highlighted-button;
+  background-color: $highlighted-button-background;
+  color: $highlighted-button-text;
 }
