@@ -18,12 +18,14 @@ header {
     @include headline;
   }
 
-  nav li {
-    @include nav-bar-li;
+  nav {
+    float: right;
+    position: relative;
+    bottom: 100px;
   }
 
   .nav-bar-list li {
-    display: inline-block;
+    @include nav-bar-li;
   }
 
   #login-button {
