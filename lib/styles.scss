@@ -29,6 +29,8 @@ header {
 
     &:hover {
       background-color: $standard-button-background-color;
+      color: white;
+      cursor: pointer;
     }
 
   }
