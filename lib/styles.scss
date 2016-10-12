@@ -43,11 +43,11 @@ header {
 
 @media screen and (max-width: 920px) { /* for smartphones and tablets */
   header  {
-    // text-align: center;
+    text-align: center;
 
     .nav-bar-list li {
         display: block;
-        max-width: 400px
+        max-width: 400px;
     }
 
     #index-logo {
@@ -61,6 +61,7 @@ header {
     nav {
       float: none;
       position: static;
+      text-align: center;
     }
 
   } //end of header
