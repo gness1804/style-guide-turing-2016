@@ -1,0 +1,29 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+html {
+  background: $main-background;
+  background-size: auto 1500px;
+}
+
+header {
+  @include header;
+
+}
+
+#index-headline {
+  @include headline;
+}
+
+#index-logo {
+  height: $index-logo-height;
+  width: $index-logo-width;
+}
+
+nav li {
+  @include nav-bar-li;
+}
+
+.nav-bar-list li {
+  display: inline-block;
+}
