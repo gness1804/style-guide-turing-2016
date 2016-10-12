@@ -26,6 +26,11 @@ header {
 
   .nav-bar-list li {
     @include nav-bar-li;
+
+    &:hover {
+      background-color: $standard-button-background-color;
+    }
+
   }
 
   #login-button {
