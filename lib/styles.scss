@@ -40,3 +40,29 @@ header {
   }
 
 } //end of header
+
+@media screen and (max-width: 920px) { /* for smartphones and tablets */
+  header  {
+    // text-align: center;
+
+    .nav-bar-list li {
+        display: block;
+        max-width: 400px
+    }
+
+    #index-logo {
+      display: none;
+    }
+
+    #index-headline {
+      float: none;
+    }
+
+    nav {
+      float: none;
+      position: static;
+    }
+
+  } //end of header
+
+} //end of media query
