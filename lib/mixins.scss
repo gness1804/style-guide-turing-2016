@@ -38,5 +38,6 @@
 }
 
 @mixin link-standard-hover {
+  color: $link-hover-color;
   text-decoration: none;
 }

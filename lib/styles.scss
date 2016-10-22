@@ -14,6 +14,10 @@ a:visited {
   @include link-standard-visited;
 }
 
+a:hover {
+  @include link-standard-hover;
+}
+
 header {
   @include header;
 
@@ -92,6 +96,8 @@ header {
   border: $border-standard;
   border-radius: $border-radius-standard;
   margin: 0 auto;
+  padding: 15px;
+  text-align: center;
   width: 500px;
 
   h2 {
