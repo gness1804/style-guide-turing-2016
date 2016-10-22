@@ -102,8 +102,9 @@ header {
   width: 500px;
 
   .content-card-title {
+    font-size: $content-card-title-font-size;
+    margin: 30px auto;
     width: 200px;
-    margin: 0 auto;
   }
 
   .content-card-main-img {
