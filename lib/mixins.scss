@@ -25,3 +25,19 @@
   background-color: $highlighted-button-background;
   color: $highlighted-button-text;
 }
+
+@mixin link-standard-unvisited {
+  color: $link-unvisited-color;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@mixin link-standard-visited {
+  color: $link-visited-color;
+  text-decoration: none;
+}
+
+@mixin link-standard-hover {
+  color: $link-hover-color;
+  text-decoration: none;
+}

@@ -4,6 +4,19 @@
 html {
   background: $main-background;
   background-size: auto 1500px;
+  font-family: $main-font;
+}
+
+a {
+  @include link-standard-unvisited;
+}
+
+a:visited {
+  @include link-standard-visited;
+}
+
+a:hover {
+  @include link-standard-hover;
 }
 
 header {
@@ -37,6 +50,11 @@ header {
 
   #login-button {
     @include login-button;
+
+    &:hover{
+      background-color: rgb(247, 184, 245);
+      color: black;
+    }
   }
 
 } //end of header
@@ -73,4 +91,25 @@ header {
 
   } //end of header
 
-} //end of media query
+} //end of media query for header
+
+.content-card {
+  border: $border-standard;
+  border-radius: $border-radius-standard;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  width: 500px;
+
+  .content-card-title {
+    font-size: $content-card-title-font-size;
+    margin: 30px auto;
+    width: 200px;
+  }
+
+  .content-card-main-img {
+    height: 200px;
+    width: 300px;
+  }
+
+} //end of content card
