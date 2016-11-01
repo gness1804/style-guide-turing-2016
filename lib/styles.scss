@@ -116,7 +116,14 @@ header {
 
 footer {
   border: $border-standard;
-  margin: 0 auto;
+  border-radius: $border-radius-standard;
+  margin: 40px auto;
+  padding: 10px;
   width: 80vw;
+
+  #footer-logo {
+    height: 60px;
+    width: 60px;
+  }
 
 } //end of footer
