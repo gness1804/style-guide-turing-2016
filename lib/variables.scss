@@ -2,6 +2,7 @@
 $main-background: linear-gradient(to bottom, rgb(247, 184, 245), rgb(215, 25, 191));
 $border-standard: 1px solid black;
 $border-radius-standard: 5px;
+$border-radius-icon: 30%;
 
 //fonts
 $main-font: 'Oswald', sans-serif;
@@ -9,6 +10,8 @@ $main-font: 'Oswald', sans-serif;
 //images
 $index-logo-height: 300px;
 $index-logo-width: 220px;
+$small-icon-height: 60px;
+$small-icon-width: 60px;
 
 //buttons
 $highlighted-button-background: rgb(40, 37, 222);
