@@ -126,9 +126,15 @@ footer {
     width: $small-icon-width;
   }
 
+  .footer-icons-container {
+    display: flex;
+    float: right;
+  }
+
   .footer-icon {
     border-radius: $border-radius-icon;
     height: $small-icon-height;
+    margin: 0 15px;
     width: $small-icon-width;
   }
 
