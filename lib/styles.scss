@@ -128,7 +128,7 @@ footer {
 
   .footer-links-container {
     display: inline-block;
-    
+
 
     a {
       margin: 0 10px;
@@ -146,6 +146,13 @@ footer {
     height: $small-icon-height;
     margin: 0 15px;
     width: $small-icon-width;
+  }
+
+  #footer-copyright {
+    font-size: 12px;
+    font-style: italic;
+    margin: 20px auto;
+    text-align: center;
   }
 
 } //end of footer
