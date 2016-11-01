@@ -156,3 +156,18 @@ footer {
   }
 
 } //end of footer
+
+@media screen and (max-width: 920px) { /* for smartphones and tablets */
+
+  footer {
+    padding: 15px;
+    width: 500px;
+
+    #footer-logo {
+      display: block;
+      margin: 0 auto;
+    }
+
+  } //end of footer
+
+} //end of media query
