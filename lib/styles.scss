@@ -126,6 +126,16 @@ footer {
     width: $small-icon-width;
   }
 
+  .footer-links-container {
+    display: inline-block;
+    
+
+    a {
+      margin: 0 10px;
+    }
+
+  } //end of footer-links-container
+
   .footer-icons-container {
     display: flex;
     float: right;
