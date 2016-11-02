@@ -19,6 +19,14 @@ a:hover {
   @include link-standard-hover;
 }
 
+@media screen and (max-width: $breakpoint) {
+
+  body {
+    text-align: center;
+  }
+
+} //end of media query
+
 header {
   @include header;
 
@@ -59,7 +67,7 @@ header {
 
 } //end of header
 
-@media screen and (max-width: 920px) { /* for smartphones and tablets */
+@media screen and (max-width: $breakpoint) { /* for smartphones and tablets */
   header  {
     text-align: center;
 
@@ -156,3 +164,38 @@ footer {
   }
 
 } //end of footer
+
+@media screen and (max-width: $breakpoint) { /* for smartphones and tablets */
+
+  footer {
+    padding: 15px;
+    width: 500px;
+
+    #footer-logo {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .footer-links-container {
+      display: block;
+
+      a {
+        display: block;
+        margin: 15px auto;
+      }
+
+    } //end of footer-links-container
+
+    .footer-icons-container {
+      display: block;
+      float: none;
+    }
+
+    .footer-icon {
+      height: $small-icon-height * .67;
+      width: $small-icon-width * .67;
+    }
+
+  } //end of footer
+
+} //end of media query
