@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "mixins.scss";
+@import "debug.scss";
 
 html {
   background: $main-background;
@@ -101,13 +102,21 @@ header {
 
 } //end of media query for header
 
+.body-items-container {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 90vw;
+}
+
 .content-card {
   border: $border-standard;
   border-radius: $border-radius-standard;
-  margin: 0 auto;
+  display: inline-block;
+  margin-right: 20px;
   padding: 15px;
   text-align: center;
-  width: 500px;
+  width: 300px;
 
   .content-card-title {
     font-size: $content-card-title-font-size;
@@ -121,6 +130,10 @@ header {
   }
 
 } //end of content card
+
+.accordion {
+  
+}
 
 footer {
   border: $border-standard;
