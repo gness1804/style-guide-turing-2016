@@ -116,7 +116,7 @@ header {
   margin-right: 20px;
   padding: 15px;
   text-align: center;
-  width: 300px;
+  width: 40%;
 
   .content-card-title {
     font-size: $content-card-title-font-size;
@@ -132,8 +132,12 @@ header {
 } //end of content card
 
 .accordion {
-  
-}
+  border: $border-standard;
+  border-radius: $border-radius-standard;
+  display: inline-block;
+  margin-left: 80px;
+  width: 40%;
+} //end of accordion
 
 footer {
   border: $border-standard;
