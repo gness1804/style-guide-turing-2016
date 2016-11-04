@@ -136,7 +136,7 @@ header {
   border: $border-standard;
   border-radius: $border-radius-standard;
   display: inline-block;
-  margin-left: 80px;
+  float: right;
   height: 80%;
   width: 40%;
 
@@ -144,8 +144,13 @@ header {
 
   }
 
-  li {
+  .dropdown-link {
     list-style-type: none;
+    margin: 50px auto;
+  }
+
+  .dropdown-menu {
+
   }
 
 } //end of accordion
