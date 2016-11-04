@@ -26,6 +26,12 @@
   color: $highlighted-button-text;
 }
 
+@mixin content-title {
+  font-size: $content-card-title-font-size;
+  margin: 30px auto;
+  width: 200px;
+}
+
 @mixin link-standard-unvisited {
   color: $link-unvisited-color;
   cursor: pointer;
