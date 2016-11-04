@@ -120,9 +120,7 @@ header {
   width: 40%;
 
   .content-card-title {
-    font-size: $content-card-title-font-size;
-    margin: 30px auto;
-    width: 200px;
+    @include content-title
   }
 
   .content-card-main-img {
@@ -141,13 +139,18 @@ header {
   padding: 15px;
   width: 40%;
 
+  .accordion-title {
+    @include content-title;
+  }
+
   .dropdown-container {
 
   }
 
   .dropdown-link {
+    cursor: pointer;
     list-style-type: none;
-    // margin: 50px auto;
+    margin: 50px auto;
   }
 
   .dropdown-menu {
