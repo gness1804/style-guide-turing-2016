@@ -116,7 +116,7 @@ header {
   margin-right: 20px;
   padding: 15px;
   text-align: center;
-  height: 80%;
+  height: 600px;
   width: 40%;
 
   .content-card-title {
@@ -137,7 +137,8 @@ header {
   border-radius: $border-radius-standard;
   display: inline-block;
   float: right;
-  height: 80%;
+  height: 600px;
+  padding: 15px;
   width: 40%;
 
   .dropdown-container {
@@ -146,7 +147,7 @@ header {
 
   .dropdown-link {
     list-style-type: none;
-    margin: 50px auto;
+    // margin: 50px auto;
   }
 
   .dropdown-menu {
