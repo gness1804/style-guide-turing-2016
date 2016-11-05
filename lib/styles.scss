@@ -143,9 +143,9 @@ header {
     @include content-title;
   }
 
-  .dropdown-container {
-
-  }
+  // .dropdown-container {
+  //
+  // }
 
   .dropdown-icon {
     height: 20px;
@@ -185,12 +185,20 @@ header {
 @media screen and (max-width: $breakpoint) {
 
   .content-card {
+    display: block;
+    margin: 0 auto;
 
     .content-card-main-img {
       height: 100px;
       width: 100px;
     }
 
+  } //end of content-card
+
+  .accordion {
+    display: block;
+    float: none;
+    margin: 0 auto;
   }
 
 
