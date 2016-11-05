@@ -1,5 +1,6 @@
 //global styles
 $main-background: linear-gradient(to bottom, rgb(247, 184, 245), rgb(215, 25, 191));
+$mobile-background: rgb(247, 184, 245);
 $border-standard: 1px solid black;
 $border-radius-standard: 5px;
 $border-radius-icon: 30%;
@@ -29,3 +30,6 @@ $content-card-title-font-size: 32px;
 $link-unvisited-color: rgb(25, 61, 186);
 $link-visited-color: rgb(78, 79, 68);
 $link-hover-color: rgb(200, 45, 18);
+
+//margins
+$margin-body-content-mobile: 30px auto;

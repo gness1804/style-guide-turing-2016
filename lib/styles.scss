@@ -23,6 +23,7 @@ a:hover {
 @media screen and (max-width: $breakpoint) {
 
   body {
+    background-color: $mobile-background;
     text-align: center;
   }
 
@@ -186,7 +187,8 @@ header {
 
   .content-card {
     display: block;
-    margin: 0 auto;
+    height: auto;
+    margin: $margin-body-content-mobile;
 
     .content-card-main-img {
       height: 100px;
@@ -198,9 +200,9 @@ header {
   .accordion {
     display: block;
     float: none;
-    margin: 0 auto;
+    height: auto;
+    margin: $margin-body-content-mobile;
   }
-
 
 } //end of media query
 
