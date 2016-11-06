@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "mixins.scss";
 @import "debug.scss";
+@import "mobile.scss";
 
 html {
   background: $main-background;
@@ -19,15 +20,6 @@ a:visited {
 a:hover {
   @include link-standard-hover;
 }
-
-@media screen and (max-width: $breakpoint) {
-
-  body {
-    background-color: $mobile-background;
-    text-align: center;
-  }
-
-} //end of media query
 
 header {
   @include header;
@@ -65,43 +57,14 @@ header {
       background-color: rgb(247, 184, 245);
       color: black;
     }
+
   }
 
 } //end of header
 
-@media screen and (max-width: $breakpoint) { /* for smartphones and tablets */
-  header  {
-    text-align: center;
-
-    .nav-bar-list {
-      padding: 0px;
-      margin: 0px;
-    }
-
-    .nav-bar-list li {
-        display: block;
-        max-width: 400px;
-        margin: 15px auto;
-    }
-
-    #index-logo {
-      display: none;
-    }
-
-    #index-headline {
-      float: none;
-      margin-right: 0px;
-    }
-
-    nav {
-      float: none;
-      position: static;
-      text-align: center;
-    }
-
-  } //end of header
-
-} //end of media query for header
+// @media screen and (max-width: $breakpoint) { /* for smartphones and tablets */
+//
+// } //end of media query for header
 
 .body-items-container {
   margin: 0 auto;

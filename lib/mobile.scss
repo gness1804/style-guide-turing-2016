@@ -1,0 +1,41 @@
+@import "variables.scss";
+
+@media screen and (max-width: $breakpoint) {
+
+  body {
+    background-color: $mobile-background;
+    text-align: center;
+  }
+
+  header  {
+    text-align: center;
+
+    .nav-bar-list {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .nav-bar-list li {
+        display: block;
+        max-width: 400px;
+        margin: 15px auto;
+    }
+
+    #index-logo {
+      display: none;
+    }
+
+    #index-headline {
+      float: none;
+      margin-right: 0px;
+    }
+
+    nav {
+      float: none;
+      position: static;
+      text-align: center;
+    }
+
+  } //end of header
+
+} //end of media query
