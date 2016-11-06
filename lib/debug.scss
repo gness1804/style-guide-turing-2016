@@ -6,7 +6,7 @@ $debug-background-color: magenta;
 @if ($debug) {
 
   .body-items-container {
-    border: $debug-border-style;
+    header: $debug-border-style;
   }
 
 } //end of debug statement
