@@ -1,0 +1,18 @@
+@import "variables.scss";
+
+@media screen and (min-width: 1400px) {
+
+  header {
+
+    #index-headline {
+      font-size: $headline-font-size-giant-monitor !important;
+    }
+
+    #index-logo {
+      height: $index-logo-height * 1.5 !important;
+      width: $index-logo-width * 1.5 !important;
+    }
+
+  } //end of header
+
+} //end of media query
