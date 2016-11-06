@@ -190,6 +190,7 @@ header {
     display: block;
     height: auto;
     margin: $margin-body-content-mobile;
+    width: $body-content-width-mobile;
 
     .content-card-main-img {
       height: 100px;
@@ -203,6 +204,7 @@ header {
     float: none;
     height: auto;
     margin: $margin-body-content-mobile;
+    width: $body-content-width-mobile;
   }
 
 } //end of media query
