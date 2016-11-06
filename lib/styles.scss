@@ -62,10 +62,6 @@ header {
 
 } //end of header
 
-// @media screen and (max-width: $breakpoint) { /* for smartphones and tablets */
-//
-// } //end of media query for header
-
 .body-items-container {
   margin: 0 auto;
   overflow: hidden;
@@ -108,10 +104,6 @@ header {
     @include content-title;
   }
 
-  // .dropdown-container {
-  //
-  // }
-
   .dropdown-icon {
     height: 20px;
     margin-left: 15px;
@@ -146,31 +138,6 @@ header {
   }
 
 } //end of accordion
-
-@media screen and (max-width: $breakpoint) {
-
-  .content-card {
-    display: block;
-    height: auto;
-    margin: $margin-body-content-mobile;
-    width: $body-content-width-mobile;
-
-    .content-card-main-img {
-      height: 100px;
-      width: 100px;
-    }
-
-  } //end of content-card
-
-  .accordion {
-    display: block;
-    float: none;
-    height: auto;
-    margin: $margin-body-content-mobile;
-    width: $body-content-width-mobile;
-  }
-
-} //end of media query
 
 footer {
   border: $border-standard;
@@ -214,38 +181,3 @@ footer {
   }
 
 } //end of footer
-
-@media screen and (max-width: $breakpoint) { /* for smartphones and tablets */
-
-  footer {
-    padding: 15px;
-    width: 500px;
-
-    #footer-logo {
-      display: block;
-      margin: 0 auto;
-    }
-
-    .footer-links-container {
-      display: block;
-
-      a {
-        display: block;
-        margin: 15px auto;
-      }
-
-    } //end of footer-links-container
-
-    .footer-icons-container {
-      display: block;
-      float: none;
-    }
-
-    .footer-icon {
-      height: $small-icon-height * .67;
-      width: $small-icon-width * .67;
-    }
-
-  } //end of footer
-
-} //end of media query
