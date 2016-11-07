@@ -32,14 +32,18 @@ header {
 
   #index-headline {
     @include headline;
+    position: relative;
+    top: 100px;
   }
 
   nav {
-    // bottom: 150px;
+    bottom: 830px;
     // float: right;
     // position: relative;
+    position: absolute;
     margin: 50px auto;
     text-align: center;
+    display: inline-block;
   }
 
   .nav-bar-list li {
