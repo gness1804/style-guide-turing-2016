@@ -17,7 +17,7 @@
 
     .nav-bar-list li {
       display: block !important;
-      max-width: 400px;
+      width: 80vw;
       margin: 15px auto !important;
     }
 
@@ -33,7 +33,7 @@
     nav {
       float: none !important;
       position: static !important;
-      text-align: center;
+      text-align: center !important;
     }
 
   } //end of header
