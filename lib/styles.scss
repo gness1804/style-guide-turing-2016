@@ -36,10 +36,12 @@ header {
     top: 100px;
   }
 
+  #index-headline-mobile {
+    display: none;
+  }
+
   nav {
     bottom: 830px;
-    // float: right;
-    // position: relative;
     position: absolute;
     margin: 50px auto;
     text-align: center;

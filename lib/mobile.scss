@@ -17,7 +17,7 @@
 
     .nav-bar-list li {
       display: block !important;
-      width: 80vw;
+      width: 60vw;
       margin: 15px auto !important;
     }
 
@@ -26,8 +26,12 @@
     }
 
     #index-headline {
-      float: none !important;
-      margin-right: 0px !important;
+      display: none !important;
+    }
+
+    #index-headline-mobile {
+      display: block !important;
+      font-size: $headline-font-size-mobile;
     }
 
     nav {
